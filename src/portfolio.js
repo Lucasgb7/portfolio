@@ -22,11 +22,9 @@ const greeting = {
   title: "Lucas Cunha",
   logo_name: "LucasCunha",
   nickname: "lucasgb7",
-  subTitle:
-    "A curious person that is always seeking knowledge and hard working in ever task that I do.",
-  resumeLink:
-    "https://www.linkedin.com/in/lucasjosedacunha/",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  subTitle: "A curious person that is always seeking knowledge and hard working in ever task that I do.",
+  resumeLink: "https://www.linkedin.com/in/lucasjosedacunha/",
+  portfolio_repository: "https://github.com/lucasgb7/portfolio",
   githubProfile: "https://github.com/Lucasgb7",
 };
 
@@ -319,39 +317,15 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/lucascunha_gb7",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "Codewars",
+      iconifyClassname: "simple-icons:codewars",
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.codewars.com/users/Lucasgb7",
     },
   ],
 };
@@ -359,9 +333,9 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Univeristy of Vale do Itajaí - UNIVALI",
+      title: "University of Vale do Itajaí - UNIVALI",
       subtitle: "B.A. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
+      logo_path: "univali_logo.png",
       alt_name: "UNIVALI",
       duration: "2017 - 2022",
       descriptions: [
@@ -377,12 +351,11 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Embedded Systems",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+      title: "Embedded Systems Essentials with Arm: Getting Started",
+      subtitle: "ArmEducationX",
+      logo_path: "edx_logo.png",
+      certificate_link: "https://courses.edx.org/certificates/377b6e5a32bd4cb18ea237f5264b67ce",
+      alt_name: "edX Courses",
       color_code: "#8C151599",
     }
   ],
@@ -402,12 +375,23 @@ const experience = {
         {
           title: "Software Developer",
           company: "NBW Digital",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
+          company_url: "https://www.nbwdigital.com.br/",
+          logo_path: "nbwdigital_logo.png",
           duration: "August 2018 - April 2019",
           location: "Gaspar, SC - Brazil",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "I was working on full stack development in a IT solution company. Mostly using technolgies as AngularJS, JS/HTML/CSS, Java and PHP.",
+          color: "#0879bf",
+        },
+        {
+          title: "Researcher",
+          company: "UNIVALI",
+          company_url: "https://univali.br/",
+          logo_path: "univali_logo.png",
+          duration: "May 2019 - March 2020",
+          location: "Itajai, SC - Brazil",
+          description:
+            "I've developed a wireless solution based on LPWAN network. It was my first indeed project in Embedded Systems. Check it out at my LinkedIn",
           color: "#0879bf",
         }
       ],
@@ -419,14 +403,13 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Embedded Systems projects focused on low power consumptiom.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
+  description:"I have worked on and published a few research papers and publications of my own.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -434,22 +417,23 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "gb7.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Embedded Systems, C/C++, Linux and Low Power Solutions.",
   },
+  /*
   blogSection: {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
     link: "https://ashutoshhathidara.wordpress.com",
     avatar_image_path: "blogs_image.svg",
-  },
+  },*/
   addressSection: {
     title: "Address",
     subtitle: "Gaspar, Santa Catarina - Brazil",
     avatar_image_path: "address_image.svg"/*,
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",*/
+    location_map_link: "https://goo.gl/maps/8ThfA89uPpM4k6Q47",*/
   },
   phoneSection: {
     title: "Phone Number",
