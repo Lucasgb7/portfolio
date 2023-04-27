@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Lucas's Portfolio",
-  description:
-    "A curious person that is always seeking knowledge and hard working in ever task that I do.",
+  description: "'Just keep seeking for knowledge' - ET Bilu",
   og: {
     title: "Lucas Cunha Portfolio",
     type: "website",
@@ -22,7 +21,7 @@ const greeting = {
   title: "Lucas Cunha",
   logo_name: "LucasCunha",
   nickname: "lucasgb7",
-  subTitle: "A curious person that is always seeking knowledge and hard working in ever task that I do.",
+  subTitle: "'Just keep seeking for knowledge' - ET Bilu",
   resumeLink: "https://www.linkedin.com/in/lucasjosedacunha/",
   portfolio_repository: "https://github.com/lucasgb7/portfolio",
   githubProfile: "https://github.com/Lucasgb7",
@@ -354,10 +353,11 @@ const certifications = {
       title: "Embedded Systems Essentials with Arm: Getting Started",
       subtitle: "ArmEducationX",
       logo_path: "edx_logo.png",
-      certificate_link: "https://courses.edx.org/certificates/377b6e5a32bd4cb18ea237f5264b67ce",
+      certificate_link:
+        "https://courses.edx.org/certificates/377b6e5a32bd4cb18ea237f5264b67ce",
       alt_name: "edX Courses",
       color_code: "#8C151599",
-    }
+    },
   ],
 };
 
@@ -365,8 +365,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work",
-  description:
-    "I have worked from Software Development to Server/Waiter.",
+  description: "I have worked from Software Development to Server/Waiter.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -393,9 +392,9 @@ const experience = {
           description:
             "I've developed a wireless solution based on LPWAN network. It was my first indeed project in Embedded Systems. Check it out at my LinkedIn",
           color: "#0879bf",
-        }
+        },
       ],
-    }
+    },
   ],
 };
 
@@ -409,7 +408,8 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description:"I have worked on and published a few research papers and publications of my own.",
+  description:
+    "I have worked on and published a few research papers and publications of my own.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -432,8 +432,9 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle: "Gaspar, Santa Catarina - Brazil",
-    avatar_image_path: "address_image.svg"/*,
-    location_map_link: "https://goo.gl/maps/8ThfA89uPpM4k6Q47",*/
+    avatar_image_path:
+      "address_image.svg" /*,
+    location_map_link: "https://goo.gl/maps/8ThfA89uPpM4k6Q47",*/,
   },
   phoneSection: {
     title: "Phone Number",
